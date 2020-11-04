@@ -1,8 +1,22 @@
 #!/usr/bin/env ruby
+<<<<<<< HEAD
 require_relative '../lib/turn'
 
+=======
+
+
+require_relative '../lib/turn'
+
+
+>>>>>>> ae98e5ee73bc6bc666c2984b51b6b864159e3bfc
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 puts "Please enter 1-9"
+<<<<<<< HEAD
+=======
+
+
+move(board, index, "X")
+>>>>>>> ae98e5ee73bc6bc666c2984b51b6b864159e3bfc
